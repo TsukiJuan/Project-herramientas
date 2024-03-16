@@ -38,9 +38,9 @@ namespace pdfV
 
         private void btnOpenBrowser_Click(object sender, EventArgs e)
         {
-            string url = "https://sicau.pascualbravo.edu.co/SICAU/Account/Login";
+            string urlWebsite = "https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/clean-code-que-es-el-codigo-limpio/";
             // Navegar a la URL ingresada
-            wbBrowser.Navigate(url);
+            wbBrowser.Navigate(urlWebsite);
         }
     }
     }
